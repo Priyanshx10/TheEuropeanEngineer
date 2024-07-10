@@ -1,15 +1,44 @@
-import React from 'react'
+import React from 'react';
 
 const SubHeader = () => {
   return (
-    <div className='bg-white flex text-slate-500 hover:cursor-pointer space-x-10 justify-center border-t border-white py-2 font-medium'>
-        <h1>Home</h1>
-        <h1>About</h1>
-        <h1>Euro Top Tech Jobs</h1>
-        <h1>Euro Top Money</h1>
-        <h1>Archieve</h1>
+    <div className="bg-white border-t border-gray-200 py-4 sticky top-0 z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="flex items-center justify-center space-x-8">
+          <a
+            href="/home"
+            className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+          >
+            Home
+          </a>
+          <a
+            href="/About"
+            className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+          >
+            About
+          </a>
+          <a
+            href="Jobs"
+            className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+          >
+            Euro Top Tech Jobs
+          </a>
+          <a
+            href="Money"
+            className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+          >
+            Euro Top Money
+          </a>
+          <a
+            href="Archive"
+            className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
+          >
+            Archive
+          </a>
+        </nav>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default SubHeader
+export default SubHeader;
