@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import NewsletterSection from '@/components/components/NewsletterSection';
 import React from 'react';
 
 const AboutPage = () => {

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Papa, { UnparseConfig } from 'papaparse';
 import { Skeleton } from "@/components/ui/skeleton"
+import FeaturedBlog from '@/components/components/Feature';
 
 // Sample data for the CSV file
 const sampleData = [
@@ -145,6 +146,7 @@ const Page = () => {
 
   return (
     <div className="w-full mx-auto p-4">
+     
       <h1 className="text-2xl font-bold mb-4 text-center">Tech Updates</h1>
       <button
         onClick={handleGenerateCSV}
@@ -153,6 +155,7 @@ const Page = () => {
         Check Updates
       </button>
       {renderTable()}
+      <FeaturedBlog />
     </div>
   );
 };
