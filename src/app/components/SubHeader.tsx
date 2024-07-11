@@ -18,29 +18,29 @@ const SubHeader = () => {
             About
           </a>
           <a
-            href="Jobs"
+            href="/Jobs"
             className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
           >
             Euro Top Tech Jobs
           </a>
           <a
-            href="Money"
+            href="/Money"
             className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
           >
             Euro Top Money
           </a>
           <a
-            href="Archive"
+            href="/Archive"
             className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
           >
             Archive
           </a>
 
           <a
-            href="Archive"
+            href="/Csv"
             className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
           >
-            Csv Convertor
+            Tech Latest
           </a>
         </nav>
       </div>
