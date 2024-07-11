@@ -37,7 +37,7 @@ const SubHeader = () => {
           </a>
 
           <a
-            href="/Csv"
+            href="/TechUpdates"
             className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
           >
             Tech Latest
